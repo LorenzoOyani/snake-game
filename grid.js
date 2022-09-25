@@ -1,4 +1,4 @@
-let CELL_GRIDSIZE = 21
+let CELL_GRIDSIZE = 21;
 
 export function createRamdomGrid(){
     return {

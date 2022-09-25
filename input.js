@@ -24,7 +24,7 @@ window.addEventListener('keydown', e=>{
                     case 'ArrowRight':
                         if(lastInputDirection.x !=0)break;
                         inputDirection = {x:1, y:0}
-                        break
+                        break;
     }
 })
 

@@ -20,8 +20,8 @@ function moveSnake(currentTime){
     const SinceLastRender = (currentTime - lastRenderTime) /1000;
     if(SinceLastRender < 1 /SNAKE_SPEED) return;
     lastRenderTime = currentTime
-    update()
-    draw()
+    update();
+    draw();
 }
 
 
@@ -37,7 +37,7 @@ function update(){
 }
 
 function draw(){
-    gameUI.innerHTML = ''
+    gameUI.innerHTML = '';
     drawSnake(gameUI)
     drawFood(gameUI);
 }

@@ -36,7 +36,7 @@ export function expandSnake(amount){
 
 
 export function getSnakeHead(){
-    return snakeBody[0]
+    return snakeBody[0];
 }
 
 

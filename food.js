@@ -40,7 +40,7 @@ function getRandomFoodPosition(){
     while(newFoodPosition ==null || getSnakeBodyPosition(newFoodPosition)){
         newFoodPosition = createRamdomGrid();
     }
-    return newFoodPosition
+    return newFoodPosition;
 } 
 
 
